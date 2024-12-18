@@ -1,20 +1,14 @@
-.col-8{
-    margin-top:60px;
+/* Font */
+.alt-font{
+  font-size:16px;
+  font-family:"Oswald", serif;
 }
 
-.col-9{
-    margin-left:300px;
+.leadmb-4{
+  font-size:30px;
 }
 
 
-
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.fw-bold{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
  /* Basic Styling for the Footer */
  footer {
     background-color: #333;
