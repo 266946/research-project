@@ -4,10 +4,11 @@ BACKGROUND
 =================================================
 */
 body{
-  background-color: rgb(229, 229, 229);
+  background-color: #e4e0e0;
   margin: 0;
   padding: 0;
 }
+
 
 /* Font */
 .alt-font{
@@ -19,8 +20,25 @@ body{
 .leadmb-4{
   font-size:30px;
 }
-.white{
-  background-color: white;
+.white-top{
+  border-top:200px solid white;
+  border-bottom: 200px solid white;
+
+}
+
+.blue{
+  border-bottom: 200px solid white;
+
+}
+.original{
+  background-image: url('img/evbackground.jpg');
+  background-size: cover;
+  border-bottom:50px solid white;
+  height:700px;
+}
+
+.purple{
+  border-bottom: 200px solid white;
 }
 
 
