@@ -18,29 +18,27 @@ body{
 }
 
 .leadmb-4{
-  font-size:30px;
+  font-size:35px;
 }
+
+/*sections*/
 .white-top{
   border-top:200px solid white;
   border-bottom: 200px solid white;
-
 }
 
-.blue{
+.environment{
   border-bottom: 200px solid white;
-
 }
-.original{
+.hero{
   background-image: url('img/evbackground.jpg');
   background-size: cover;
-  border-bottom:50px solid white;
   height:700px;
 }
 
-.purple{
+.industry{
   border-bottom: 200px solid white;
 }
-
 
  /* Basic Styling for the Footer */
  footer {

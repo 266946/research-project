@@ -28,22 +28,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
                   <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     Menu
                   </button>
                   <ul class="dropdown-menu dropdown-menu-end">
-                    <li><button class="dropdown-item" type="button">Impact on the economy</button></li>
-                    <li><button class="dropdown-item" type="button">Impact on the climate</button></li>
-                    <li><button class="dropdown-item" type="button">Impact on the automobile industry</button></li>
+                    <li><a href="#economy"><button class="dropdown-item" type="button">Impact on the economy</button></a></li>
+                    <li><a href="#climate"><button class="dropdown-item" type="button">Impact on the climate</button></a></li>
+                    <li><a href="#environment"><button class="dropdown-item" type="button">Are EVs better for the environment?</button></a></li>
+                    <li><a href="#industry"><button class="dropdown-item" type="button">Impact on the automobile industry</button></a></li>
                   </ul>
                 </div>
             </div>
@@ -51,7 +49,7 @@
     </nav>
 
          <!-- HERO SECTION-->
-        <div class="original">
+        <div class="hero">
          <div class="px-4 py-5 mb-5 text-center">
             <h1 class="display-5 fw-bold">Are EVs going to change the world?</h1>
             <div class="col-lg-6 mx-auto">
@@ -63,25 +61,27 @@
           </div>
         </div>
            <!-- ONE COLUMN START -->
-    <div class="container py-5" id="about">
-      <div class="row">
-        <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
-        <p class="alt-font">
-          To answer this question I have researched throughly going to multiple websites to find the answer. So this is what I found.
-        </p>
+     <div class="about">
+      <div class="container py-5" id="about">
+        <div class="row">
+          <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
+          <p class="alt-font">
+            I spent a lot of time researching this topic, checking out several different websites and sources to make sure I got accurate and detailed information. After looking through everything carefully, I've put together the answer I found.
+          </p>
+        </div>
       </div>
     </div>
   </div>
     <!-- ONE COLUMN END -->
 
     <!-- 2/3, 1/3 SECTION START -->
-     <div class="black">
+  <div class="black">
     <div class="container py-5">
       <div class="row">
         <div class="col-8">
           <img src="img/porsche1.webp" class="img-fluid" />
         </div>
-        <div class="col-sm-4">
+          <div class="col-sm-4" id="economy">
           <h2 class="fw-bold">Impact on the Economy</h2>
           <p class="alt-font">
             From my research, I’ve learned that electric vehicles (EVs) save both money and energy. EVs are much cheaper to fuel, with owners spending 60% less on energy compared to gas cars. Charging an EV typically costs $485 annually, while fueling a gasoline car can cost $1,117—a savings of $15,000 over 15 years. EVs are also more energy-efficient, converting 85% of their energy into motion, versus just 30-40% for gas cars. They require less maintenance, as they have fewer moving parts and no need for oil changes, reducing long-term costs. Charging at home, especially with renewable energy, further lowers energy consumption, making EVs an affordable and eco-friendly option.
@@ -97,7 +97,7 @@
     <div class="white-top">
       <div class="container py-5">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-5" id="climate">
             <h2 class="fw-bold">Impact on the Climate</h2>
             <p class="alt-font">
               Electric vehicles (EVs) have a positive impact on the climate by reducing greenhouse gas emissions and improving air quality. Unlike gas-powered cars, EVs produce no tailpipe emissions, cutting pollutants like CO2, NOx, and SOx. Although battery production has some environmental impact, EVs still have 50% lower lifetime emissions than traditional vehicles. As the energy grid becomes greener with more renewables, EVs will become even cleaner. They also improve air quality by eliminating tailpipe pollution, benefiting both the climate and public health. Overall, EVs are a crucial step toward reducing transportation-related emissions and combating climate change.
@@ -111,10 +111,10 @@
     </div>
 
       <!-- 2/3, 1/3 SECTION END -->
-    <div class="blue">
+    <div class="environment">
       <div class="container py-5 text-center video" id="video">
         <div class="row py-5">
-          <div class="col pb-5">
+          <div class="col pb-5" id="environment">
               <h1 class="text-center pb-1 fw-bold pb-5">Are EVs better for the environment?</h1>
               <iframe 
               width="900"
@@ -131,13 +131,13 @@
       </div>
 
       <!-- 2/3, 1/3 SECTION START -->
-     <div class="purple">
+     <div class="industry">
       <div class="container py-5">
           <div class="row">
             <div class="col-8">
               <img src="img/electricvsgas.jpg" class="img-fluid" />
               </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" id="industry">
                 <h2 class="fw-bold">Impact on the Automobile Industry</h2>
                 <p class="alt-font">
                     Electric vehicles (EVs) are transforming the automobile industry by driving innovation and reshaping production processes. Traditional automakers are investing heavily in EV technology, adapting their factories, and focusing on developing electric drivetrains and battery technology. This shift is creating new jobs in EV manufacturing, battery production, and charging infrastructure, but also leading to job displacement in areas tied to gasoline-powered vehicles. The rise of EVs is attracting new players like Tesla and Rivian, increasing competition and forcing established brands to accelerate their EV plans. Government regulations and incentives are further pushing automakers toward sustainability, with stricter emissions standards and goals for zero-emissions vehicles. Overall, EVs are accelerating the transition to a cleaner, more energy-efficient automotive industry.
